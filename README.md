@@ -3,5 +3,5 @@
  This is a hyperthetical scenario!
 
 
-
-![cvpic](https://github.com/Osalino/Hot-Beans-Website/assets/70327381/d68dd927-772d-4c44-b12d-d49e19f784ae)
+![Screenshot_20240604_231838](https://github.com/Osalino/Hot-Beans-Website/assets/70327381/18bee3c5-a179-409d-ba27-3d08dcd3df09)
+![Screenshot_20240604_232318](https://github.com/Osalino/Hot-Beans-Website/assets/70327381/b3466d49-0e3c-43aa-9a47-217862961e14)
