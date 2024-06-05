@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,900;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+   
+}
+
+:root {
+    --textC: white;
+}
+  
+body {
+    background-color: black;
+    color: var(--textC);
+    zoom: 130%;
+}
+
+nav {
+    background-color: black;
+    padding: 3em;
+}
+
+.bgvideo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;    
+    filter: brightness();
+}
+
+.border-glass {
+    width: 50%;
+    height: 790px;
+    margin: 0;
+    background-color: #010718;
+    padding: 1em 1em 1em 1em;
+    position: relative;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+
+.logo {
+    position: relative;
+    display: flex;
+    font-size: 30px;
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    margin-left: 3em;
+}
+
+.mainshow {
+    padding: 00em;
+}
+
+.logo p{
+    padding-left: 20px;
+    margin-top: 2px;
+}
+
+.text {
+    font-family: poppins, sans-serif;
+    font-size: 50px;
+    font-weight: 100px;
+    margin-top: 3em;
+    margin-left: 3em;
+}
+
+.text2 {
+    font-family: poppins, sans-serif;
+    font-size: 50px;
+    font-weight: 100px;
+    margin-top: 0em;
+    margin-left: 3em;
+}
+
+span {
+    color: rgb(46, 2, 191);
+}
+
+.sub-text {
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+    color: grey;
+    font-weight: 100px;
+    margin-left: 10em;
+}
+
+button {
+    margin-top: 1em;
+    margin-left: 7em;
+    font-size: 20px;
+    padding: 1em 2em;
+    border: 5px;
+    border-radius: 10%;
+    background-image: linear-gradient(to right, #150e66 0%, #301070 51%, #281182 100%);
+    color: rgb(167, 156, 156);
+    box-shadow: 0 0 20px rgb(67, 5, 167);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button a {
+    color: white;
+    opacity: 0.9;
+
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.droplist ul {
+    display: block;
+    position: absolute;
+    font-size: 19px;
+    left: 1300px;
+    margin-top: 0em;
+    margin-right: 0em;
+    font-weight: bolder;
+    transition: 1s;
+}
+  
+.droplist a{
+    color: var(--textC);
+}
+  
+.droplist {
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    color: var(--textC);
+  }
+  
+.fa-angle-down {
+    position: absolute;
+    top: 4px;
+    left: 610px;
+    cursor: pointer;
+}
+
+
+.links ul{
+    display: flex;
+}
+
+.links ul li {
+    padding-left: 3em;
+    transition: 1s;
+}
+
+.links a {
+    color: white;
+}
+
+.links {
+    position: relative;
+    font-family : poppins, sans-serif;
+    font-size: 19px;
+    float: right;
+    margin-top: 2em;
+    margin-right: 5em;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+.active a{
+    color: rebeccapurple;
+}
+
+
+.links ul li:hover {
+    transform: scale(1.3);
+}
+
+
+/*                                                 Section 2                                            */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,900;1,400;1,500;1,700&display=swap');
+
+.banner {
+    width: 20%;
+    height: 1000px;
+    margin-left: 300px;
+    background-color: #010718;
+    padding: 1em 1em 1em 1em;
+    position: relative;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+.banner-color img{
+    width: 20%;
+    margin-top: 0;
+    margin-left: 18.7em;
+    position: absolute;
+}
+
+.ceo::after {
+    content: "";
+}
+
+.ceo img {
+    width: 32%;
+    height: 50vh;
+    border-radius: 445em;
+    border: 15px solid rgb(27, 27, 29);
+    position: absolute;
+    top: 1100px;
+    left: 103px;
+}
+
+.titl h1 {
+    font-family: 'Fjalla One', sans-serif;
+    position: absolute;
+    top: 960px;
+    left: 503px;
+    font-size: 65px;
+    color: rgb(160, 160, 160);
+}
+
+.section-bg {
+    position: absolute;
+    top: 61em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;    
+    filter: brightness();
+}
+
+.cloud {
+    width: 1800px;
+    height: 275px;
+    border-radius: 0%;
+    position: absolute;
+    top: 40vh;
+    left: -25vw;
+  }
+  
+#cloud-back {
+    filter: url(#filter-back);
+    box-shadow: 300px 300px 30px -20px rgb(0, 0, 0);
+}
+  
+#cloud-mid {
+    filter: url(#filter-mid);
+    box-shadow: 300px 340px 70px -60px rgb(0, 0, 0);
+    left: -25vw;
+}  
+  
+#cloud-front {
+    filter: url(#filter-front);
+    box-shadow: 300px 370px 60px -100px rgb(0, 0, 0);
+    left: -25vw;
+}
+
+.section-text {
+    font-family: Poppins;
+    font-weight: 300;
+    float: right;
+    position: absolute;
+    right: 90px;
+    top: 1100px;
+    font-size: 27px;
+}
+
+.section-t1 {
+
+}
+
+.section-sub {
+    font-family: Poppins;
+    font-weight: 300;
+    float: right;
+    position: absolute;
+    right: 19px;
+    top: 1130px;
+    font-size: 27px;
+}
+
+.section-t2 {
+    font-family: Poppins;
+    font-weight: 300;
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 150px;
+    font-size: 27px;
+}
+
+.fa-bullseye {
+    margin-top: 5em;
+}
+
+.social {
+    cursor: pointer;
+}
+
+.fa-instagram {
+    border: 3em;
+    padding: 22px;
+    border-radius: 5em;
+    background: rgba(107, 106, 106, 0.361);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    top: 195%;
+    left: 190px;
+    transition: 0.3s;
+}
+
+
+.fa-linkedin {
+    border: 3em;
+    padding: 29px;
+    margin-top: 90px;
+    border-radius: 5em;
+    background: rgba(107, 106, 106, 0.361);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    top: 194%;
+    left: 190px;
+    transition: 0.3s;
+}
+
+.fa-twitter {
+    border: 3em;
+    padding: 29px;
+    border-radius: 5em;
+    background: rgba(107, 106, 106, 0.361);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    top: 216%;
+    left: 190px;
+    transition: 0.3s;
+}
+
+.fa-github {
+    border: 3em;
+    padding: 20px;
+    border-radius: 5em;
+    background: rgba(107, 106, 106, 0.361);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    top: 136%;
+    left: 160px;
+    transition: 0.3s;
+}
+
+.fa-twitter:hover {
+    color: black;
+    background: white;
+}
+
+.fa-instagram:hover {
+    color: black;
+    background: white;
+}
+
+.fa-linkedin:hover {
+    color: black;
+    background: white;
+}
+
+.fa-github:hover {
+    color: black;
+    background: white;
+}
